@@ -1,0 +1,6 @@
+index.js
+node_modules
+.env
+block_data.json
+latest_block_info.json
+package.json
