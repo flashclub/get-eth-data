@@ -3,7 +3,9 @@
 ## 前置条件
 
 注册 Infura，获取 INFURA_PROJECT_ID
-新建.env并参照 .env.example 设置环境变量
+
+新建.env 并参照 .env.example 设置环境变量
+
 安装相应依赖
 `pip install web3`
 `pip install python-dotenv`
@@ -48,5 +50,11 @@
 
 所有代码均来自 AI
 
+## 注意
+实际测试，1分钟获取到6个区块，占用800KB左右，预估24小时占用1GB左右磁盘空间
+
+长时间运行注意磁盘空间
+
 ## 其他
+
 index.py index2.py 为学习过程，无实际用途，仅供参考

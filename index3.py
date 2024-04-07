@@ -74,4 +74,4 @@ while True:
         block_data_dict = attribute_dict_to_dict(block_data)
         add_block_to_json_file(block_data_dict)
         last_block_number = current_block_number
-    time.sleep(10)  # 每60秒检查一次新区块
+    time.sleep(10)  # 每10秒检查一次新区块
